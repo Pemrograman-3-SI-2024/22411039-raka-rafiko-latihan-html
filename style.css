@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#title1{
+    color: rgb(27, 137, 112);
+}
+
+.title2 {
+    color: aqua;
+}
+
+.my-btn {
+    background-color: rgb(71, 9, 240);
+    border: none;
+
+    /* atas kanan bawah kiri */
+    /* ex. padding: 1em 2em 3em 4em; */
+    padding: 0.4em 0.8em;
+
+    /* lengkung */
+    border-radius: 17px;
+    
+    /* warna huruf */
+    color: #ffff;
+}
+
+.my-btn:hover{
+    background-color: #ffff;
+    color: blue;
+}
+
+.outline-btn{
+    border: 2px solid rgba(23, 119, 208, 0.884);
+    padding: 0.4em 0.8em;
+    border-radius: 17px;
+    background-color: #ffff;
+    color: rgba(23, 119, 208, 0.884);
+}
+
+.outline-btn:hover{
+    background-color: rgba(23, 119, 208, 0.884);
+    color: #ffff;
+}
+
+.mytable{
+    border: none;
+    border-collapse: collapse;
+}
+
+.mytable td {
+    padding: 1em;
+}
+
+.mytable tr:nth-child(even){
+    background-color: #60acca;
+}
+
+.my-card {
+    width: 20em;
+    background-color: #60acca;
+}
+
+.my-card.card-content {
+    padding: 1em 1em 0.1em 1em;
+}
+
+.my-card.card-content.card-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #353738;
+}
+
+.card-image {
+    padding-left: 2em;
+    padding-top: 2em;
+}
